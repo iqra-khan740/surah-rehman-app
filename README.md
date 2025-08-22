@@ -64,6 +64,8 @@ python -m streamlit run surah_rehman_app.py
 ├── surah_rehman_app.py         # Main Streamlit app file
 ├── 055.mp3                     # Surah Rehman recitation audio file
 └── README.md                   # Project documentation
+└── requirements.txt            # required dependencies
+└── Dockerfile                  # for better development and production
 ```
 
 ---
@@ -73,6 +75,7 @@ python -m streamlit run surah_rehman_app.py
 - 📝 Developed by: **Iqra Khan**
 - 💡 Inspired by: [Hamza Mehmood](https://github.com/HamzaKaGit/Surah_Rehman)
 - 💻 Built using: [Streamlit](https://streamlit.io/)
+  
 
 ---
 
@@ -80,5 +83,7 @@ python -m streamlit run surah_rehman_app.py
 > _"Then which of the favors of your Lord will you deny?"_
 
 ---
+you can check it out using this link:
+https://surah-rehman-app.streamlit.app/
 
 🌐 **Follow for updates and contributions are welcome!**
