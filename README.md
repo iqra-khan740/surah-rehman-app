@@ -61,14 +61,28 @@ python -m streamlit run surah_rehman_app.py
 ```
 📁 surah-rehman-app/
 │
-├── surah_rehman_app.py         # Main Streamlit app file
-├── 055.mp3                     # Surah Rehman recitation audio file
+└──surah_rehman_app.py          # Main Streamlit app file
+└── 055.mp3                     # Surah Rehman recitation audio file
 └── README.md                   # Project documentation
 └── requirements.txt            # required dependencies
 └── Dockerfile                  # for better development and production
 ```
 
 ---
+### 🐳 Run with Docker
+
+1. Build the Docker image:
+   ```bash
+   docker build -t surah-rehman-app .
+   ```
+
+2. Run the container (mapping container port `8501` to host port `8080`):
+   ```bash
+   docker run -p 8080:8501 surah-rehman-app
+   ```
+
+3. Open your browser and visit:
+   [http://localhost:8080](http://localhost:8080)
 
 ## 📌 Credits
 
